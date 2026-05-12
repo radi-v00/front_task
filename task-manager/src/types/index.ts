@@ -12,7 +12,7 @@ export interface Task {
   title: string;
   description: string;
   status: TaskStatus;
-  deadline: Date;
+//   deadline: Date;
   history: HistoryEntry[];
 }
 

@@ -46,7 +46,7 @@ export const TaskProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
         description,
         status: 'ToDo',
         history: [],
-        deadline: undefined
+        // deadline: (new Date).toLocaleDateString()
     };
     setTasks(prev => [newTask, ...prev]);
   };
